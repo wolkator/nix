@@ -1,0 +1,6 @@
+# Creating container with nvidia support
+distrobox create --name <name> --image <image> --home <home> --additional-flags "--device nvidia.com/gpu=all --security-opt=label=disable"
+
+# Cleaning
+sudo nix-collect-garbage --delete-old
+nix-collect-garbage --delete-old

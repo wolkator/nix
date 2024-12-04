@@ -1,0 +1,5 @@
+# Keyboard setup
+exec_always --no-startup-id xset s 0 -dpms
+exec_always --no-startup-id xset r rate 300 25
+exec_always --no-startup-id setxkbmap -option altwin:swap_lalt_lwin -option ctrl:swapcaps 
+

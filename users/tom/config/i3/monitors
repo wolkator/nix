@@ -1,0 +1,5 @@
+# Monitors
+# workspace $ws1 output DP-0 primary
+workspace $ws1 output DP-2 primary
+workspace $ws2 output DP-4
+exec_always --no-startup-id xrandr --output DP-2 --left-of DP-4
